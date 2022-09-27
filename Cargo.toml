@@ -7,3 +7,25 @@ edition = "2021"
 
 [dependencies]
 yew = "0.19"
+wasm-bindgen = "0.2.80"
+wasm-bindgen-futures = "0.4.30"
+js-sys = "0.3"
+
+[dependencies.web-sys]
+version = "0.3.57"
+features = [
+    "console",
+    "EncodedVideoChunk",
+    "Navigator",
+    "MediaDevices",
+    "MediaStream",
+    "MediaStreamTrackProcesor",
+    "MediaStreamTrackProcesorInit",
+    "MediaStreamTrack",
+    "HtmlVideoElement",
+    "MediaStreamConstraints",
+    "VideoTrack",
+    "VideoEncoder",
+    "VideoEncoderInit",
+    "VideoEncoderConfig"
+]
